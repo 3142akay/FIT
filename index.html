@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/tailwind.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/48bec16d56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet"href="css/style.css"/>
+    <link href="css/aos.css" rel="stylesheet">
+    <title>PRIORITIZE YOUR MENTAL HEALTH</title>
+    
+</head>
+<body>
+
+
+  
+    <header class="sticky top-0 z-50 text-gray-400 bg-gray-900 body-font">
+      <div class="w-full text-gray-400 bg-gray-900 body-font">
+        <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+          <div class="p-4 flex flex-row items-center justify-between">
+            <a href="#" class="text-lg font-semibold tracking-widest text-white uppercase rounded-lg focus:outline-none focus:shadow-outline zoom">FITNESS FREAK</a>
+            <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+              <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+
+            <a class="px-1 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline zoom" href="#FLOWCHART">FLOWCHART</a>
+            <a class="px-1 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline zoom" href="#mentor">OUR MENTOR</a>
+            <a class="px-1 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline zoom" href="#team members">TEAM MEMBERS</a>
+            <a class="px-1 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline zoom" href="#contact">CONTACT</a>
+
+            
+          </nav>
+        </div>
+      </div>
+      </header>
+      
+      <section id="home" class="text-gray-400 bg-gray-800 body-font bg-fixed" style="background-image:url(assets/bg.jpg);" >
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <div class="text-center lg:w-2/3 w-full animate__animated animate__backInDown">
+                <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white filter drop-shadow-lg">ABOUT SECTION OF TEAM</h1>
+                <p class="leading-relaxed sm:text-2xl mb-8 filter drop-shadow-lg"><span id="typed"></span></p>
+                <div class="flex justify-center">
+                </div>
+              </div>
+            <img src="assets/yoga-2150140.png" alt="mental health" width="500" height="500">
+        </div>
+      </section>
+
+
+<!--Flow chart-->
+<section class=" text-gray-400 bg-gray-900 body-font" id="FLOWCHART">
+  <div data-aos="fade-up" data-aos-duration="800" class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">FLOW CHART ABOUT PROJECT</h1>
+      <span class="self-center inline-block h-1 w-28 rounded bg-blue-500 mt-2 mb-8"></span>
+      <h2 class="text-white text-lg title-font font-medium mb-3">PRESENTED BY WELLNESS WARRIORS</h2>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+      <div data-aos="zoom-in-left" data-aos-duration="2500" class="object-cover object-center h-full w-full zoom">
+      </div>
+      <div data-aos="zoom-in-left" data-aos-duration="2500" class="object-cover object-center h-full w-full zoom">
+          <center><img alt="content" class="object-cover object-center" src="assets/Flowchart.jpg" width ="800" height="500"></center>
+          
+        </div>
+      </div>
+</section>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--FUTURE SCOPE Section
+<section class=" text-gray-400 bg-gray-900 body-font" id="introduction">
+  <div data-aos="fade-up" data-aos-duration="800" class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">FUTURE SCOPE</h1>-->
+      <section class="text-gray-400 bg-gray-800 body-font" id="future scope">
+        <div data-aos="zoom-in" data-aos-duration="1500"  class="container px-5 py-28 mx-auto">
+          <div class="flex flex-col">
+          <div class="text-center mx-auto mt-2 mb-16">
+            <h1 class="text-white font-medium title-font text-2xl mb-2 sm:mb-0">FUTURE SCOPES</h1>
+      <span class="self-center inline-block h-2 w-28 rounded bg-blue-500 mt-2 mb-8"></span>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+        The future scope of fitness websites for government is bright. Governments are increasingly recognizing the importance of physical fitness for their citizens' health and well-being. They are also realizing that fitness websites can be a valuable tool for promoting physical activity and providing information and resources to their citizens.
+
+Here are some of the ways that fitness websites can be used by governments:
+
+
+
+
+To promote physical activity and healthy lifestyles: Governments can use fitness websites to raise awareness of the importance of physical activity and healthy eating. They can also provide information on how to get started with a fitness program, find fitness facilities and activities in their area, and track their progress.
+
+To provide information and resources on fitness: Governments can use fitness websites to provide information on a variety of topics related to fitness, such as exercise guidelines, nutrition advice, and tips for overcoming common fitness challenges. They can also provide links to other resources, such as fitness apps and websites, fitness trackers, and online fitness classes.
+
+To connect people with fitness opportunities: Governments can use fitness websites to connect people with fitness opportunities in their area. This could include things like listing local gyms and fitness studios, providing information on community fitness events, and connecting people with fitness buddies.
+
+To track fitness data: Governments can use fitness websites to track fitness data for their citizens. This could be used to monitor the health of the population, identify areas where more fitness programs are needed, and evaluate the effectiveness of fitness programs.
+
+
+      </p>
+    </div>
+    </div>
+</section>
+
+<!--MENTOR SECTION-->
+<section class=" text-gray-400 bg-gray-900 body-font" id="mentor">
+  <div data-aos="fade-up" data-aos-duration="800" class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">OUR MENTOR</h1>
+      <span class="self-center inline-block h-1 w-28 rounded bg-blue-500 mt-2 mb-8"></span>
+      <h2 class="text-white text-lg title-font font-medium mb-3">Ms. AMANDEEP KAUR</h2>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">SHE IS THE ASSISTANT PROFESSOR OF CSE DEPARTMENT AT CEC,LANDRAN.</p>
+      <div data-aos="zoom-in-left" data-aos-duration="2500" class="object-cover object-center h-full w-full zoom">
+      </div>
+      <div data-aos="zoom-in-left" data-aos-duration="2500" class="object-cover object-center h-full w-full zoom">
+          <center><img alt="content" class="object-cover object-center h-80 w-150" src="assets/Amandeep kaur mam-modified.png"></center>
+        </div>
+      </div>
+</section>
+
+<!--TEAM MEMBERS Section-->
+<section class="text-gray-400 bg-gray-800 body-font" id="team members">
+  <div data-aos="fade-up" class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">TEAM MEMBERS</h1>
+      <div class="flex mt-6 justify-center">
+        <div class="w-28 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+      </div>
+    </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/AmanKumar.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">AMAN KUMAR</h2>
+          <p class="leading-relaxed text-base">He is pursuing B. tech in Computer Science & Engineering from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN.
+            </p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/Amit kumar Yadav.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">AMIT KUMAR YADAV</h2>
+          <p class="leading-relaxed text-base">He is pursuing B. tech
+            in Computer Science & Engineering from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN.</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/arjun singh.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">ARJUN SINGH</h2>
+          <p class="leading-relaxed text-base">He is pursuing B. tech
+            in Computer Science & Engineering from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN. </p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/AMANdeepsingh.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">AMANDEEP SINGH</h2>
+          <p class="leading-relaxed text-base">He is pursuing B. tech
+            in Computer Science & Engineering from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN.</p>
+        </div>
+      </div>
+
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/MAMta gupta.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">MAMTA KUMARI GUPTA</h2>
+          <p class="leading-relaxed text-base">She is pursuing B. tech
+            in Computer Science & Engineering from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN. </p>
+        </div>
+      </div>
+
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="assets/Ajit Kumar Yadav.jpg">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-white text-lg title-font font-medium mb-3">AJEET YADAV</h2>
+          <p class="leading-relaxed text-base">He is pursuing B. tech
+            in INFORMATION TECHNOLOGY from CHANDIGARH ENGINEERING COLLEGE
+            LANDRAN. </p>
+        </div>
+      </div>
+
+
+</section>
+
+
+<!--Contact Section-->
+            <section class=" text-gray-400 bg-gray-900 body-font" id="contact">
+              <div data-aos="fade-up" data-aos-duration="800" class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-20">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">YOU CAN FIND ME HERE </h1>
+            <div class="container flex-col space-x-5 mt-4 mb-2 text-white">
+              <a href="mailto:3142akay@gmail.com" target="_blank"><i class="button-zoom far fa-envelope fa-2x mb-4"></i></a>
+              <a href="https://twitter.com/amityadav847409?t=HyjM8VHShG0Cpx5-sw44Tg&s=08" target="_blank"><i class="button-zoom fab fa-twitter fa-2x mb-4"></i></a>
+              <a href="https://www.linkedin.com/in/aman-kumar-a78325251/" target="_blank"><i class="button-zoom fab fa-linkedin fa-2x mb-4"></i></a>
+              <a href="https://github.com/3142akay" target="_blank"><i class="button-zoom fab fa-github fa-2x mb-4"></i></a>
+              <a href="https://wa.me/919792608477" target="_blank"><i class="button-zoom fab fa-whatsapp fa-2x mb-4"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+<!--Footer Section-->
+ <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 mx-auto flex items-center flex-col">
+                <div class="sm:w-2/3 text-center py-6">
+                    <p class="text-sm text-blue-700 font-bold">
+                        © 2023 by Aman Kumar 
+                    </p>
+                </div>
+        </div>
+      </footer>
+<!--Scripts Section-->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="js/aos.js"></script>
+      <script>AOS.init();</script>
+      <!-- Typed.js DONT TOUCH THIS! -->
+      <div id="typed-strings"></div>
+<script>
+    var typed = new Typed('#typed', {
+        strings: ["HELLO, WELCOME TO FITNESS & MENTAL HEALTH WEBSITE",
+            "MADE FOR SMART INDIA HACKTHON 2023 CEC, LANDRAN",
+            "This project is the Prototype of Mental health & fitness",
+            "SO, LET'S EXPLORE!!",
+            "Thanks for visiting !",
+        ],
+        backSpeed: 50,
+        smartBackspace: true,
+        backDelay: 1500,
+        startDelay: 1000,
+        typeSpeed: 15,
+        loop: true,
+
+    });
+</script>
+
+</body>
+</html>
